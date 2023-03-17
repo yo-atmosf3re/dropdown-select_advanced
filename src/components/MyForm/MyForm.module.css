@@ -1,0 +1,23 @@
+.form {
+   max-width: 500px;
+   margin: 0 auto;
+}
+
+.submitButton {
+   margin-top: 10px;
+   background-color: #0e82cf;
+   color: white;
+   border-radius: 3px;
+   font-size: 18px;
+   border: none;
+   opacity: 0.9;
+}
+
+.submitButton:disabled {
+   opacity: 0.4;
+}
+
+.submitButton:active {
+   opacity: 1;
+   color: #e9e9e9;
+}
